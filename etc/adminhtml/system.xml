@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="OrderConfig" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Custom order id settings</label>
+            <tab>order_config</tab>
+            <resource>Reed_MagentoAtlasIntegration::config</resource>
+            <group id="customOrderId" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1"
+                   showInStore="1">
+                <label>Pattern for order id prefix</label>
+                <field id="prefix_custom_order_id" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Pattern for custom prefix</label>
+                    <comment>Pattern for adding prefix to order id</comment>
+                    <validate>required-entry validate-digits validate-length minimum-length-1 maximum-length-5</validate>
+                </field>
+                <field id="store_id_prefix_custom_order_id" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Pattern for store id custom prefix</label>
+                    <comment>Pattern for adding store id prefix to order id</comment>
+                    <validate>required-entry validate-digits validate-length minimum-length-1 maximum-length-5</validate>
+                </field>
+                <field id="custom_order_id_length" translate="label" type="text" sortOrder="41" showInDefault="1" showInWebsite="1"
+                       showInStore="1">
+                    <label>Length of custom order id (without prefix)</label>
+                    <comment>Length of custom order id (without prefix)</comment>
+                    <validate>required-entry validate-digits validate-length minimum-length-1 maximum-length-2</validate>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
