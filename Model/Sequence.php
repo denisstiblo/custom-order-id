@@ -1,6 +1,6 @@
 <?php
 
-namespace Maje\CustomOrderId\Model;
+namespace IntSoft\CustomOrderId\Model;
 
 use Magento\Framework\App\ResourceConnection as AppResource;
 use Magento\Framework\DB\Sequence\SequenceInterface;

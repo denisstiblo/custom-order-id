@@ -12,10 +12,10 @@ This module is intended to be installed with [composer](https://getcomposer.org/
 
 1. Download the package
 ```bash
-composer require mage/custon-order-id
+composer require intsoft/custom-order-id
 ```
 2. Enable the package
 
 ```bash
-./bin/magento module:enable Mage_CustomOrderId
+./bin/magento module:enable Intsoft_CustomOrderId
 ```
