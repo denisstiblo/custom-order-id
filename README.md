@@ -1,29 +1,21 @@
-# README #
+# Magento 2 Custom Order id
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This package allows you to define rule for creating incremtn if for order.
+For example it's easy to define rule to gave such increment id - xyz00000047
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Purpose
+Sometimes business logic/rules require strict format for order id 
 
-### How do I get set up? ###
+## Getting Started
+This module is intended to be installed with [composer](https://getcomposer.org/). From the root of your Magento 2 project:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+1. Download the package
+```bash
+composer require mage/custon-order-id
+```
+2. Enable the package
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```bash
+./bin/magento module:enable Mage_CustomOrderId
+```
