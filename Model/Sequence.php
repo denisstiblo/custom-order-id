@@ -1,6 +1,6 @@
 <?php
 
-namespace IntSoft\CustomOrderId\Model;
+namespace Intsoft\CustomOrderId\Model;
 
 use Magento\Framework\App\ResourceConnection as AppResource;
 use Magento\Framework\DB\Sequence\SequenceInterface;

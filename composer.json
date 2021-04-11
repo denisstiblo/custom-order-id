@@ -1,6 +1,6 @@
 {
-  "name": "Intsoft/custom-order-id",
-  "version": "1.0.2",
+  "name": "intsoft/custom-order-id",
+  "version": "1.0.4",
   "description": "N/A",
   "type": "magento2-module",
   "require": {
@@ -14,7 +14,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Maje\\CustomOrderId\\": ""
+      "Intsoft\\CustomOrderId\\": ""
     }
   }
 }
